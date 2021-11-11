@@ -7740,6 +7740,11 @@ vuepress-plugin-smooth-scroll@^0.0.3:
   dependencies:
     smoothscroll-polyfill "^0.4.3"
 
+vuepress-theme-book@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.npmmirror.com/vuepress-theme-book/download/vuepress-theme-book-0.0.6.tgz#e2a4a8017bacc26f0577aec2b316cef1ef104d31"
+  integrity sha1-4qSoAXuswm8Fd67CsxbO8e8QTTE=
+
 vuepress@^1.8.2:
   version "1.8.2"
   resolved "https://registry.npmmirror.com/vuepress/download/vuepress-1.8.2.tgz?cache=0&sync_timestamp=1635479662888&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fvuepress%2Fdownload%2Fvuepress-1.8.2.tgz#97e8bf979630611fc7b621fc4cc35b798ee5e847"

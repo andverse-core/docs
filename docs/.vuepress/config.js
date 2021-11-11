@@ -1,6 +1,7 @@
 module.exports = {
   title: 'Andverse',
   description: '',
+  theme: "book",
   themeConfig: {
     displayAllHeaders: true, // 默认值：false
     nav: [
