@@ -657,7 +657,7 @@ function confirmReceived() onlyBuyer inState(State.Locked);
 
 仙女座元宇宙商业生态通过创造性的结合双通证（AND和AT）以及元宇宙商业NFT的混合型设计，构造了丰富而迷人的经济系统。其中，AND作为仙女座元宇宙的治理代币，采用PoS模型质押挖矿；AT作为仙女座通用积分，采用PoA模型行为挖矿；而元宇宙商业NFT则创造性地将仙女座元宇宙中的设计元素资产化，驱动整个经济系统的繁荣。
 
-<img src="images/arch-cn.png" width="600px" />
+<img src="/images/arch-cn.png" width="600px" />
 
 ### AND：仙女座治理代币
 
@@ -707,15 +707,15 @@ function confirmReceived() onlyBuyer inState(State.Locked);
 
 定价公式为：
 
-<p><img src="images/bancor_spot_price.png" height="80px" /></p>
+<p><img src="/images/bancor_spot_price.png" height="80px" /></p>
 
 其中，
 
-<p><img src="images/bancor_liquidity.png" height="50px" /></p>
+<p><img src="/images/bancor_liquidity.png" height="50px" /></p>
 
 通过调节CW，可以实现不同的定价曲线，比如：
 
-<img src="images/bancor_price_charts.png" width="600px" />
+<img src="/images/bancor_price_charts.png" width="600px" />
 
 ##### 兑换公式
 
@@ -723,7 +723,7 @@ function confirmReceived() onlyBuyer inState(State.Locked);
 
 公式为：
 
-<p><img src="images/bancor_ntp_out.png" height="80px" /></p>
+<p><img src="/images/bancor_ntp_out.png" height="80px" /></p>
 
 此为公式一。
 
@@ -731,7 +731,7 @@ function confirmReceived() onlyBuyer inState(State.Locked);
 
 公式为：
 
-<p><img src="images/bancor_new_in.png" height="70px" /></p>
+<p><img src="/images/bancor_new_in.png" height="70px" /></p>
 
 此为公式二。
 

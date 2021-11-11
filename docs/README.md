@@ -1276,7 +1276,7 @@ The technology tree is advancing extremely fast, the Andromedans transcend Andro
 The Andromeda Metaverse Commerce Ecosystem constructs a rich and fascinating economic system by creatively combining dual tokens (AND and AT) and the hybrid design of the Metaverse Commerce NFT. Among them, AND, as the governance token of Andromeda Metaverse, is mined using PoS model; AT, as Andromeda universal credits, is mined using PoA model; and Metaverse Commerce NFT creatively assets the design elements in Andromeda Metaverse to drive the prosperity of the whole economic system.
 
 
-<img src="images/arch.png" width="600px" />
+<img src="/images/arch.png" width="600px" />
 
 ### AND：仙女座治理代币  
 ### AND: Andromeda Governance Token
@@ -1370,19 +1370,19 @@ Using the Bancor automatic pricing algorithm, a one-way conversion from a paymen
 
 The pricing formula is：
 
-<p><img src="images/bancor_spot_price.png" height="80px" /></p>
+<p><img src="/images/bancor_spot_price.png" height="80px" /></p>
 
 其中，
 
 Among them,
 
-<p><img src="images/bancor_liquidity.png" height="50px" /></p>
+<p><img src="/images/bancor_liquidity.png" height="50px" /></p>
 
 通过调节CW，可以实现不同的定价曲线，比如：
 
 By adjusting the CW, different pricing curves can be achieved, such as:
 
-<img src="images/bancor_price_charts.png" width="600px" />
+<img src="/images/bancor_price_charts.png" width="600px" />
 
 ##### 兑换公式  Redemption formula
 
@@ -1394,7 +1394,7 @@ In the first case, specify a certain amount of NEW to be paid and calculate the 
 
 The formula is:
 
-<p><img src="images/bancor_ntp_out.png" height="80px" /></p>
+<p><img src="/images/bancor_ntp_out.png" height="80px" /></p>
 
 此为公式一。 
 
@@ -1408,7 +1408,7 @@ In the second case, specify a certain amount of AND to be redeemed, and calculat
 
 The formula is:
 
-<p><img src="images/bancor_new_in.png" height="70px" /></p>
+<p><img src="/images/bancor_new_in.png" height="70px" /></p>
 
 此为公式二。
 
