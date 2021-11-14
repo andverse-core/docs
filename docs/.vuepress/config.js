@@ -1,6 +1,6 @@
 module.exports = {
   base: '/',
-  title: 'Andromeda Metaverse',
+  title: 'Andverse Docs',
   description: '',
   theme: "book",
   themeConfig: {
