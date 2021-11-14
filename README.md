@@ -10,20 +10,20 @@ https://andverse-docs.surge.sh/
 https://vuepress.vuejs.org/zh/guide/getting-started.html
 
 ```
-# 安装对应的包
+# Install
 yarn # npm install
 
-# 运行开发环境
+# Dev
 yarn docs:dev # npm run docs:dev
-或
+or
 vuepress dev docs
 
 
-# 构建页面
+# Build
 yarn docs:build # npm run docs:build
-或
+or
 vuepress build docs
 
-# 目标文件目录
+# Target
 docs/.vuepress/dist
 ```
