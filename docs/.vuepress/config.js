@@ -3,12 +3,20 @@ module.exports = {
   title: 'Andverse Docs',
   description: '',
   theme: "book",
+  locales: {
+    '/': {
+      lang: 'en-US',
+      title: 'Andverse',
+      description: 'Andromeda：Metaverse Commerce Ecosystem'
+    },
+    '/zh/': {
+      lang: 'zh-CN',
+      title: '仙女座',
+      description: '仙女座：元宇宙商业生态'
+    }
+  },
   themeConfig: {
     displayAllHeaders: true, // 默认值：false
-    nav: [
-          { text: 'English Version', link: '/en/', ariaLabel: 'English Version' },
-          { text: '中文版', link: '/zh/', ariaLabel: '中文版' },
-        ],
     sidebar: {
       '/zh/': [
         ''
