@@ -2,7 +2,6 @@ module.exports = {
   base: '/',
   title: 'Andverse Docs',
   description: '',
-  theme: "book",
   locales: {
     '/': {
       selectText: 'Languages',
@@ -29,25 +28,167 @@ module.exports = {
         ariaLabel: 'Languages',
         lang: 'en-US',
         title: 'Andverse',
-        description: 'Andromeda：Metaverse Commerce Ecosystem'
+        description: 'Andromeda：Metaverse Commerce Ecosystem',
+        sidebar: [
+         {
+            title: 'Guide',
+            path: '/guide/what-is-andverse',
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+              '/guide/what-is-andverse'
+            ]
+          },
+          {
+            title: 'Community',
+            path: '/community/',
+            collapsable: false,
+            sidebarDepth: 1,
+            children: [
+              // 
+            ]
+          },
+          {
+            title: 'Specs',
+            path: '/specs/',
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+              '/specs/land',
+            ]
+          },
+          {
+            title: 'Technology',
+            path: '/technology',
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+              // 
+            ]
+          },
+          {
+            title: 'RoadMap',
+            path: '/roadmap/',
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+              // 
+            ]
+          },
+          {
+            title: 'Developers',
+            path: '/developers',
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+              // 
+            ]
+          },
+          {
+            title: 'Contribution',
+            path: '/contribution/',
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+              // 
+            ]
+          },
+          {
+            title: 'F&Q',
+            path: '/faq/',
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+              // 
+            ]
+          },
+          
+        ],
       },
       '/zh/': {
         selectText: '选择语言',
         label: '简体中文',
         lang: 'zh-CN',
         title: '仙女座',
-        description: '仙女座：元宇宙商业生态'
+        description: '仙女座：元宇宙商业生态',
+        sidebar: [
+         {
+            title: '介绍',
+            path: '/zh/guide/',
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+              '/zh/guide/'
+            ]
+          },
+          {
+            title: '社区',
+            path: '/zh/community/',
+            collapsable: false,
+            sidebarDepth: 1,
+            children: [
+              // '/zh/community'
+            ]
+          },
+          {
+            title: '规范',
+            path: '/zh/specs/',
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+              '/zh/specs/land'
+            ]
+          },
+          {
+            title: '技术',
+            path: '/zh/technology',
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+              // 
+            ]
+          },
+          {
+            title: '路线图',
+            path: '/zh/roadmap/',
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+              // 
+            ]
+          },
+          {
+            title: '开发者',
+            path: '/zh/developers',
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+              // 
+            ]
+          },
+          {
+            title: 'Contribution',
+            path: '/zh/contribution/',
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+              // 
+            ]
+          },
+          {
+            title: '常见问题',
+            path: '/zh/faq/',
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+              // 
+            ]
+          },
+          
+        ],
       }
     },
-    sidebar: {
-      '/zh/': [
-        ''
-      ],
-      '/en/': [
-        '',
-      ],
-      '/': ['']
-    },
+
     // Assumes GitHub. Can also be a full GitLab url.
     repo: 'https://github.com/andverse-core/docs',
     // Customising the header label

@@ -1,7 +1,3 @@
----
-sidebarDepth: 3
----
-
 # Andverse
 
 ## [What's Andverse](guide/what-is-andverse.md)
