@@ -6,9 +6,9 @@ sidebarDepth: 3
 
 ## [What's Andverse](guide/what-is-andverse.md)
 
-## Community 
+## [Community](community)
 
-## [Specs](spec/spec.md)
+## [Specs](specs)
 
 ## Technology
 
@@ -32,7 +32,7 @@ sidebarDepth: 3
 
 ### And File System
 
-## [RoadMap](roadmap/roadmap.md)
+## [RoadMap](roadmap)
 
 ### Recent
 
@@ -46,7 +46,7 @@ sidebarDepth: 3
 
 ## Contribution
 
-## [F&Q](faq/faq.md)
+## [F&Q](faq)
 
 ## I18N
 
