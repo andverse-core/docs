@@ -8,7 +8,7 @@ sidebarDepth: 3
 
 ## Community 
 
-## Specs
+## [Specs](spec.md)
 
 ## Technology
 
@@ -32,7 +32,7 @@ sidebarDepth: 3
 
 ### And File System
 
-## RoadMap
+## [RoadMap](roadmap.md)
 
 ### Recent
 
@@ -46,7 +46,7 @@ sidebarDepth: 3
 
 ## Contribution
 
-## F&Q
+## [F&Q](faq.md)
 
 ## I18N
 
