@@ -70,7 +70,8 @@ module.exports = {
     // default value is true. Set it to false to hide next page links on all pages
     nextLinks: true,
     // default value is true. Set it to false to hide prev page links on all pages
-    prevLinks: true
+    prevLinks: true,
+    logo: '/assets/img/logo.png',
   },
   configureWebpack: (config, isServer) => {
     if (!isServer) {
