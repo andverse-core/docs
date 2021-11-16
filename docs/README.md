@@ -2,10 +2,7 @@
 sidebarDepth: 3
 ---
 
-# Content 
-
-- [English Version](en)
-- [中文版](zh)
+# Andverse
 
 ## [What's Andverse](en/what-is-andverse.md)
 
@@ -53,3 +50,4 @@ sidebarDepth: 3
 
 ## I18N
 
+## [WhitePaper](whitepaper.md)
