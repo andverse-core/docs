@@ -1,63 +1,63 @@
 ## Land
 
-LAND 是一种不可替代的数字资产，维护在牛顿区块链智能合约中。 LAND 采用仙女座[坐标体系](#坐标体系)。
-每个 LAND 都包含其坐标值、其所有者以及类型。
+LAND is an irreplaceable digital asset maintained in a Newton blockchain smart contract.
+LAND uses the [Andromeda coordinate system](#coordinate_system).
+Each LAND contains its coordinate value, its owner, and its type.
 
-### 坐标体系
+### Coordinate System
 
-仙女座采用一套公开且兼容现有区块链元宇宙（DecenterLand）、互联网元宇宙项目（例如，Facebook改名后的Meta）的坐标体系。
-其基本结构如下：
+Andromeda uses a coordinate system that is public and compatible with existing blockchain metaverse (e.g., DecenterLand) and Internet metaverse projects (e.g., Facebook's renamed Meta).
+Its basic structure is as follows.
 
 ```
 Ω(1, 2, 3, (4, 5))
 ```
 
-其中，
-- Ω：代表了此套坐标体系，采用本坐标体系，固定使用该字符。
+- Ω: represents this set of coordinate system, using this coordinate system and fixing the use of this character.
 
-该值需要采用`constant string AND_SYMBOL = "Ω"`记录在合约中
+This value needs to be recorded in the contract using the `constant string AND_SYMBOL = "Ω"`
 
-- 1: Metaverse ID, 所属元宇宙编号，代表了元宇宙项目
+- 1: Metaverse ID, the number of the metaverse to which it belongs, representing the metaverse item
 
-参考 [SLIP-0044](https://github.com/satoshilabs/slips/blob/master/slip-0044.md),
+Refer to [SLIP-0044](https://github.com/satoshilabs/slips/blob/master/slip-0044.md),
 
-元宇宙ID注册如下：
+Metaverse ID is registered as follows.
 
 Metaverse ID | Symbol | Metaverse
---|--|--
+---|--|--
 0 | NEW | Newton Metaverse
 1 | AND | Andverse
 2 | META | Facebook (META)
 3 | LAND | Decentraland
 4 | SAND | SandBox
 
-元宇宙及其包含的星系、星球、土地等，均需提供`function metaverseId()`来返回元宇宙ID。
+The metaverse and the galaxies, planets, lands, etc. that it contains are required to provide `function metaverseId()` to return the metaverse ID.
 
-- 2: Galaxy ID, 所属星系编号。该编号由各个元宇宙单独维护，其中仙女座元宇宙的星系编号如下：
+- 2: Galaxy ID, the number of the galaxy it belongs to. This number is maintained separately for each metaverse, where the Andromeda metaverse has the following galaxy number.
 
 Galaxy ID | Name
 --|--
-0 | 仙女座星系
+0 | Andromeda Galaxy
 
-星系及其包含的星球、土地等，均需提供`function galaxyId()`来返回星系ID。
+The galaxy and its planets, lands, etc., need to provide `function galaxyId()` to return the galaxy ID.
 
-- 3： Planet ID, 所在星球编号。该编号由各个元宇宙单独维护，其中仙女座星系中星球编号如下：
+- 3: Planet ID, the planet number. This number is maintained separately for each meta-universe, where the Andromeda galaxy has the following planet IDs.
 
 Planet ID | Name
---|--
-0 | 0号星球（蓝色星球、生命起源）
+| Name
+0 | Planet 0 (blue planet, origin of life)
 
-星球及其包含的土地等，据需提供`functin planetId()`来返回星球ID
+Planet and the land it contains, etc., according to the `functin planetId()` that needs to be provided to return the planet ID
 
-- (4, 5): 在笛卡尔坐标体系中的土地的坐标
+- (4, 5): the coordinates of the land in the Cartesian coordinate system
 
-### 3号星球坐标分布
+### Coordinate distribution of planet 3
 
-- 第一次售卖坐标范围
-  - 从 (103,103) 到 (256,256)
-  - 系统保留坐标：
-    - 符合 x == y 或者 x + 1 == y 或者 x - 1 == y 的地块
-    - 在 (165,165) 到 (194, 194) 之间
+- First sale coordinates range
+  - from (103,103) to (256,256)
+  - Coordinates reserved by the system.
+    - Plots that match x == y or x + 1 == y or x - 1 == y
+    - Between (165,165) and (194, 194)
 
 ```bash
 function isAllowed(int x, int y) public pure returns (bool) {
