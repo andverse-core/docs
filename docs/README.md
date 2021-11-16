@@ -4,7 +4,7 @@ sidebarDepth: 3
 
 # Andverse
 
-## [What's Andverse](en/what-is-andverse.md)
+## [What's Andverse](what-is-andverse.md)
 
 ## Community 
 
