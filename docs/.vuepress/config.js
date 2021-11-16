@@ -66,6 +66,11 @@ module.exports = {
     // custom text for edit link. Defaults to "Edit this page"
     editLinkText: 'Help us improve this page!',
     lastUpdated: 'Last Updated', // string | boolean
+    searchPlaceholder: 'Search...',
+    // default value is true. Set it to false to hide next page links on all pages
+    nextLinks: true,
+    // default value is true. Set it to false to hide prev page links on all pages
+    prevLinks: true
   },
   configureWebpack: (config, isServer) => {
     if (!isServer) {
