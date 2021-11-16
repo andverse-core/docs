@@ -1,9 +1,6 @@
 
 # 社区
 
-
-
-
 - [Medium](https://medium.com/@andverse)
 
 - [Twitter](https://twitter.com/andverseoffical)

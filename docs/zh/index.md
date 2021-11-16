@@ -1,3 +1,0 @@
-# Andverse
-
-[whitepaper](whitepaper.md)
