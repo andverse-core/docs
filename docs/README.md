@@ -8,7 +8,7 @@ sidebarDepth: 3
 
 ## Community 
 
-## Specs
+## [Specs](spec.md)
 
 ## Technology
 
