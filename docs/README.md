@@ -45,7 +45,7 @@ sidebarDepth: 3
 
 ### SDK & Framework
 
-### Buildr
+### Builder
 
 ## Contribution
 
