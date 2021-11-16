@@ -20,7 +20,7 @@ module.exports = {
     }
   },
   themeConfig: {
-    displayAllHeaders: true, // 默认值：false
+    displayAllHeaders: false, // 默认值：false
     locales: {
       '/': {
         selectText: 'Languages',
