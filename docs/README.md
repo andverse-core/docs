@@ -46,7 +46,7 @@ sidebarDepth: 3
 
 ## Contribution
 
-## F&Q
+## [F&Q](faq.md)
 
 ## I18N
 
