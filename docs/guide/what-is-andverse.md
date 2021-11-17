@@ -1,3 +1,3 @@
 # What is andverse
 
-> Andverse is a decentralized multi galaxy metaverse
+> Andverse is a decentralized multigalactic metaverse
