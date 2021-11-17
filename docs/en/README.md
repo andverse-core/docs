@@ -7,6 +7,8 @@ sidebarDepth: 2
 
 [[_TOC_]]
 
+`Tips: This document is still in the draft stage.`
+
 ## 1 Background
 
 Metaverse, a long-standing but little-known concept, breaks into the limelight in 2021. It is widely considered as a new generation of network platform after the Internet. The metaverse is not the next generation of the Internet, just as the Internet is not a 3G, 4G or 5G communications network.
