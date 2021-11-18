@@ -7,6 +7,8 @@ sidebarDepth: 2
 
 [[_TOC_]]
 
+`Tips: This document is still in the draft stage.`
+
 ## 1 Background
 
 Metaverse, a long-standing but little-known concept, breaks into the limelight in 2021. It is widely considered as a new generation of network platform after the Internet. The metaverse is not the next generation of the Internet, just as the Internet is not a 3G, 4G or 5G communications network.
@@ -180,7 +182,7 @@ The Andromeda Metaverse Commerce Protocols have an unparalleled openness that fa
 Based on Ethereum ERC-20, ERC-721, ERC-1155 and Newton NewChain NRC-6, NRC-7, NRC-50 and other basic protocols, Andromeda Metaverse Commerce Ecosystem has built a large number of NFT digital asset trading protocols, called Andromeda Protocols. The protocols are a set of protocols, specifically containing several sub-protocols as described below.
 
 Andromeda Metaverse is a decentralized, cross-chain network that supports NFT for minting, trading, and financing. All protocols are permissionless open and censorship-resistant, facilitating integration and interoperability with various metaverse games, as well as transactions. All protocols can be set with fee switches to generate revenue when necessary to support the value of governance tokens.
- 
+
 ### Pricing and Trading Protocols
 
 #### Abstract
@@ -254,7 +256,7 @@ Trading strategies are divided into the following types:
 
 - Perpetual Auction
   - The user sets the initial price and markup and then transfers the NFT to be under control of the protocol
-  - Once the perpetual auction has started, anyone can buy the NFT at the markup set initially 
+  - Once the perpetual auction has started, anyone can buy the NFT at the markup set initially
   - The perpetual auction stops when and only when the last bidder withdraws the NFT from the protocol after the sale
 
 - Support for user bids
@@ -434,7 +436,7 @@ function mint(vaultId, ntfIds[]);
 
 Once the pool is released, anyone can deposit qualified NFTs into the pool, and each NFT receives 10,000 Pool Token of the corresponding pool.
 
-- Redeem NFT 
+- Redeem NFT
 
 ```
 function redeem(vaultId, numNFTs);
@@ -614,7 +616,7 @@ The ratio of planet elements determines the use value of this planet, and only p
 | Comets | At least two elements | 1-10  | Random mining resources (airdrops). Where system uncertainties come from (bug mechanism). Can bring new elements to a planet via comets, or can destroy a civilization |
 | Black Holes | No limit      | 100+     | Ability to absorb individual planets (destruction mechanism)      |
 
-- Stars 
+- Stars
     - 100% elemental hydrogen (fusion)
     - Diameter size not less than 30
 - Planets
@@ -643,7 +645,7 @@ The ratio of planet elements determines the use value of this planet, and only p
     - The amount of ore is random, some lands are not mineable
 - Land area and land quantity
     - Planet size determines the total land limit
-- Usage of Land 
+- Usage of Land
     - Mining
         - Land of all planets can be used for mining
         - Mining can be done when and only if the land has mines
@@ -680,120 +682,6 @@ The Andromeda Metaverse Commerce Ecosystem constructs a rich and fascinating eco
 
 <img src="/images/arch.png" width="600px" />
 
-### AND: Andromeda Governance Token
-
-#### Value Capture
-
-The protocol generates business revenues that automatically and periodically repurchase AND from a pool, specifically the following revenue types.
-- Opening revenue from the growth of distributed commercial network nodes.
-- Revenue from network-wide transaction fees.
-- Revenue related to fees for advanced features, e.g., second-level domain names and personalized domain name features, etc.
-
-#### Rights and Benefits Design
-
-- Locking AND to establish Andromeda Metaverse commercial nodes; different types of nodes require different amounts of holdings or staking positions.
-- Voting governance rights: AND holders can vote based on their positions and jointly participate in various decisions related to the Andromeda metaverse commerce protocol, for example, adjustment of the fee rate, algorithm and key parameter values, metaverse commercial governance/arbitration, etc.
-- Governance mining: By staking AND positions to participate in governance, one can mine various tokens within the Andromeda Metaverse Commercial Ecosystem, currently available: AT (Andromeda Credits).
-- Renewal discounts: Enjoy discounts within the Andromeda Metaverse Commerce Ecosystem, current benefit: renewing the annual Andromeda service at a discounted rate.
-- Airdrop qualification: For AND holders to make exclusive operational activities from time to time, there is a chance to get airdrop qualification for various tokens within the Andromeda Metaverse Commerce Ecosystem.
-- Transaction fees supporting the value of Andromeda token; regular buyback.
-
-#### Token Structure
-
-- Token symbol: AND. Token name: Andromeda Metaverse.
-- Total amount is fixed and will never be increased. Issued on Newton NewChain.
-- Total number of tokens issued: (100 million).
-- Distribution Method.
-
- **Ratio** | **Target** | **Locking** | **Other protocols**
--|-|-|-
-..% | Team | 1 year |
-..% | Angel investors |  |
-..% | Private investors |  | Institutions only
-..% | DAO distribution |  |
-..% | Liquidity mining |  |
-..% | Community treasury |  | Can be used through governance; or injected into a governance pool
-..% | Airdrop |  |
-
-#### DAO Distribution / Bancor Distribution
-
-Automated token offerings to DAOs through smart contracts that implement Bancor's automated pricing algorithm.
-
-##### Automatic Pricing Algorithm
-
-Using the Bancor automatic pricing algorithm, a one-way conversion from a payment token (e.g., NEW) to an issuing token (AND) is possible, and the pricing curve can be flexibly defined by adjusting the connector weight (CW) factor.
- 
-The pricing formula is：
-
-<p><img src="/images/bancor_spot_price.png" height="80px" /></p>
-
-Among them,
-
-<p><img src="/images/bancor_liquidity.png" height="50px" /></p>
-
-By adjusting the CW, different pricing curves can be achieved, such as:
-
-<img src="/images/bancor_price_charts.png" width="600px" />
-
-#####  Redemption formula
-
-In the first case, specify a certain amount of NEW to be paid and calculate the amount of AND that can be exchanged.
-
-The formula is:
-
-<p><img src="/images/bancor_ntp_out.png" height="80px" /></p>
-
-This is Equation 1.
-
-In the second case, specify a certain amount of AND to be redeemed, and calculate the amount of NEW to be paid.
-
-The formula is:
-
-<p><img src="/images/bancor_new_in.png" height="70px" /></p>
-
-This is Equation 2.
-
-##### Example Of Numerical Values
-
-With an issuance of 10,000 AND and an initial pricing of 1 AND = 0.5 NEW, using pricing curve b (CW = 50%), the 1st purchase, costing 10 NEW, can be calculated according to Equation 1, to redeem 19.8039 AND. The actual transaction price is 1 AND = 0.505 NEW.
-
-The second purchase, to redeem 100 AND, can be calculated to have the actual cost of 53.4902 NEW according to the Equation 2. The actual transaction price is 1 AND = 0.5349 NEW.
-
-And so on.
-
-##### Contract Initialization
-
-1. Deploy the contract and set-up the initialization parameters
-2. Transfer the number of AND tokens to be sold into the contract
-
-##### Redemption Process
-
-1. The user opens the wallet software and connects
-2. The user enters the amount of NEW to be invested or the amount of AND to be redeemed
-3. The user clicks the exchange button
-4. Wait for the blockchain to confirm the transaction
-5. When the transaction is completed, the NEW in the user's wallet will be deducted and the AND will be redeemed into the user's wallet
-
-### AT: Andromeda Universal Credits
-
-Application Scenario:
-
-Consumers of Andromeda's distributed commerce are AT holders, and AT holders consume in discount and can also use AT credits to pay (merchant defined pricing). Add targeted users to Andromeda and turn these targeted users into AT holders as a source of incremental traffic to sell to Andromeda customers (merchants).
-
-**Token Structure**
-
-- Token symbol: AT. Token name: Andromeda Token.
-- Total amount is fixed and never mint more.
-- Total issuance amount: 1,000 trillion. Issued on Newchain. Can be transfered cross-chain to ethereum, heco, bsc and other chains.
-
-**Token Distribution**
-
-AT distribution is to be accomplished in several ways as follows.
-- (20% = 200 trillion) NewSwap distribution.
-- (20% = 200 trillion) Various types of airdrops, including distributions to NEW holders, other blockchain users or exchange users, or distributed commercial nodes, i.e., through the Andromeda applet itself, issuing Andromeda credits.
-- (20% = 200 trillion) Airdrops to node NFT holders.
-- (20% = 200 trillion) Transaction mining. Both buyers and sellers who make transactions in Andromeda receive AT rewards.
-- (20% = 200 trillion) Stake mining. AT can be mined by locking in AND to the mining pool, for example.
 
 ### Economic Model
 
