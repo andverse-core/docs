@@ -1,5 +1,7 @@
 # Andverse
 
+## [WhitePaper](whitepaper.md)
+
 ## [What's Andverse](guide/what-is-andverse.md)
 
 ## [Community](community)
@@ -46,4 +48,3 @@
 
 ## I18N
 
-## [WhitePaper](whitepaper.md)

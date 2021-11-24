@@ -1,6 +1,8 @@
 
 # Andverse
 
+## [WhitePaper](whitepaper-v0.1.md)
+
 ## [什么是仙女座](guide)
 
 ## [社群](community)
@@ -47,4 +49,3 @@
 
 ## [国际化]
 
-## [WhitePaper](whitepaper-v0.1.md)
