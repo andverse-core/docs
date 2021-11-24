@@ -8,11 +8,26 @@ sidebarDepth: 2
 
 
 
+| 序号 | 日期       | 作者   | 标题或描述 | 版本 | 状态 |
+| ---- | --- | --- | --- | --- | --- |
+| 1  | 2021-11-23 | xiawu@andverse.org | 仙女座白皮书    |   v0.2   |  草案    |
+
+
 ## 1 简介
 
 仙女座是一个去中心化的多星系元宇宙，建立在区块链和去中心化服务之上，提供
 
 ## 2 背景
+
+blockchain features
+
+* global payment system
+* ecosystem transparency
+* ownership protection
+
+
+
+totally open system, decentraland, sandbox can't run its system.
 
 
 
@@ -160,7 +175,13 @@ sidebarDepth: 2
 
 
 
-### 3.6 优势和挑战
+### 3.6 组织
+
+use case:
+
+* advertisement
+
+### 3.7 优势和挑战
 
 >
 >
@@ -193,9 +214,13 @@ sidebarDepth: 2
 
 
 
+## 5 产品
 
 
-## 5 经济体系
+
+
+
+## 6 经济体系
 
 仙女座元宇宙商业生态通过创造性的结合双通证（AND和AT）以及元宇宙商业NFT的混合型设计，构造了丰富而迷人的经济系统。其中，AND作为仙女座元宇宙的治理代币，采用PoS模型质押挖矿；AT作为仙女座通用积分，采用PoA模型行为挖矿；而元宇宙商业NFT则创造性地将仙女座元宇宙中的设计元素资产化，驱动整个经济系统的繁荣。
 
@@ -242,7 +267,7 @@ sidebarDepth: 2
 
 
 
-## 6 技术
+## 7 技术
 
 宇宙中存在多维空间，不同空间需要虫洞来穿越。仙女座宇宙中，默认的时空是基于NewChain，但通过NewBridge协议，可传送到Ethereum、HecoChain或者BSC等其它链上。
 
@@ -260,11 +285,21 @@ NewBridge协议使用者需要指定要接收的链、接受地址、币种合�
 
 
 
-## 7 适用场景
+### 7.1 Random Source
 
 
 
-## 8 团队
+### 7.2 Smart NFTs
+
+
+
+
+
+## 8 生态
+
+
+
+## 9 团队
 
 
 

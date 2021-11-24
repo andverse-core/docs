@@ -47,4 +47,4 @@
 
 ## [国际化]
 
-## [WhitePaper](whitepaper.md)
+## [WhitePaper](whitepaper-v0.1.md)
