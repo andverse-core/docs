@@ -244,15 +244,11 @@ use case:
 >
 >* Medium of exchange
 >
->  https://sandboxgame.gitbook.io/the-sandbox/sand/what-is-sand-used-for
->
 >  
 >
 >* Governance
 >
->  $SAND holders will be able to participate in the governance of The Sandbox's platform.
->
->* 
+>  
 
 #### 价值捕获
 
