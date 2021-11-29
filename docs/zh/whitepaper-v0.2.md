@@ -39,7 +39,7 @@ totally open system, decentraland, sandbox can't run its system.
 
 
 
-### 3.2 文明发展阶段
+### 3.2 仙女座文明
 
 #### 阶段1 创世纪
 
@@ -58,8 +58,11 @@ totally open system, decentraland, sandbox can't run its system.
 
 
 
-
 ### 3.3 星球
+
+>
+>
+>总量有限
 
 仙女座元宇宙商业的最小不可分割单位是基本元素。元宇宙商业创世时仅有N种（例如：5种，氧、氮、硅、铝、氢）基本元素，基本元素可以通过治理增加。
 
@@ -164,7 +167,15 @@ totally open system, decentraland, sandbox can't run its system.
 
 
 
-### 3.5 身份
+### 3.5 地产
+
+
+
+### 3.6 街区
+
+
+
+### 3.7 身份
 
 用户身份 （DID）
 
@@ -175,13 +186,16 @@ totally open system, decentraland, sandbox can't run its system.
 
 
 
-### 3.6 组织
+### 3.8 组织
 
 use case:
 
 * advertisement
+* 抵押借贷；
 
-### 3.7 优势和挑战
+
+
+### 3.9 优势和挑战
 
 >
 >
@@ -225,6 +239,20 @@ use case:
 仙女座元宇宙商业生态通过创造性的结合双通证（AND和AT）以及元宇宙商业NFT的混合型设计，构造了丰富而迷人的经济系统。其中，AND作为仙女座元宇宙的治理代币，采用PoS模型质押挖矿；AT作为仙女座通用积分，采用PoA模型行为挖矿；而元宇宙商业NFT则创造性地将仙女座元宇宙中的设计元素资产化，驱动整个经济系统的繁荣。
 
 ### AND：仙女座治理代币
+
+>
+>
+>* Medium of exchange
+>
+>  https://sandboxgame.gitbook.io/the-sandbox/sand/what-is-sand-used-for
+>
+>  
+>
+>* Governance
+>
+>  $SAND holders will be able to participate in the governance of The Sandbox's platform.
+>
+>* 
 
 #### 价值捕获
 
@@ -292,6 +320,10 @@ NewBridge协议使用者需要指定要接收的链、接受地址、币种合�
 ### 7.2 Smart NFTs
 
 
+
+### 多链支持
+
+NewChain, Ethereum
 
 
 
