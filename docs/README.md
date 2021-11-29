@@ -8,7 +8,7 @@
 
 ## [Specs](specs)
 
-## [Technology](technolgy/index.md)
+## [Technology](technology/index.md)
 
 ## [RoadMap](roadmap)
 

@@ -59,7 +59,7 @@ module.exports = {
           },
           {
             title: 'Technology',
-            path: '/technology',
+            path: '/technology/',
             collapsable: false,
             sidebarDepth: 0,
             children: [
