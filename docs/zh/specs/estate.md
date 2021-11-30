@@ -23,3 +23,11 @@
     "external_url":"https://www.andverse.org/expolor/3"
 }
 ```
+
+其中，
+- name: 地产名称
+- description: 地产描述
+- image: 地产图片，系统根据周围环境自动生成
+- andverse： 用户自定义内容，包含 name, description 和 image字段
+- properties：元数据中包含的属性数组
+- external_url: andverse.org指定地块的编号
