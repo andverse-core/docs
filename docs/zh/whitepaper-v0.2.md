@@ -2,7 +2,7 @@
 sidebarDepth: 2
 ---
 
-# 仙女座：去中心化的多星系元宇宙
+# Andverse：去中心化的元宇宙开发平台
 
 [[_TOC_]]
 
@@ -10,12 +10,12 @@ sidebarDepth: 2
 
 | 序号 | 日期       | 作者   | 标题或描述 | 版本 | 状态 |
 | ---- | --- | --- | --- | --- | --- |
-| 1  | 2021-11-23 | xiawu@andverse.org | 仙女座白皮书    |   v0.2   |  草案    |
+| 1  | 2021-11-23 | xiawu@andverse.org | 仙女座白皮书    |   v0.2   | DRAFT |
 
 
 ## 1 简介
 
-仙女座是一个去中心化的多星系元宇宙，建立在区块链和去中心化服务之上，提供
+仙女座是一个去中心化的元宇宙开发平台，建立在区块链、去中心化服务和VR/AR/XR技术之上，提供元宇宙系统开发所需架构、工具、开发框架和产品，致力于打造自由开放的去中心化元宇宙世界。
 
 ## 2 背景
 
@@ -40,6 +40,10 @@ totally open system, decentraland, sandbox can't run its system.
 
 
 ### 3.2 仙女座文明
+
+reference: https://yacht.monaconft.io/
+
+
 
 #### 阶段1 创世纪
 
@@ -236,6 +240,10 @@ use case:
 
 ## 6 经济体系
 
+soci-fi:  invitation code-invitation only;
+
+game-fi:  ; 
+
 仙女座元宇宙商业生态通过创造性的结合双通证（AND和AT）以及元宇宙商业NFT的混合型设计，构造了丰富而迷人的经济系统。其中，AND作为仙女座元宇宙的治理代币，采用PoS模型质押挖矿；AT作为仙女座通用积分，采用PoA模型行为挖矿；而元宇宙商业NFT则创造性地将仙女座元宇宙中的设计元素资产化，驱动整个经济系统的繁荣。
 
 ### AND：仙女座治理代币
@@ -324,6 +332,8 @@ NewChain, Ethereum
 
 
 ## 8 生态
+
+Andverse Ambassador or KOL(Key Opinion Leader)；
 
 
 
