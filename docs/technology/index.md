@@ -15,9 +15,9 @@
 
 ## Asset management
 
-## Device 
+## Device
 
-## Contract
+## [Contract](api/contracts/)
 
 ## And File System
 
