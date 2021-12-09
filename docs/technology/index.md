@@ -17,7 +17,7 @@
 
 ## Device
 
-## [Contract](api/contracts/)
+## [Contracts](api/index.md#Contracts)
 
 ## And File System
 
