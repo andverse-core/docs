@@ -6,7 +6,7 @@ slug: /
 
 # 开始
 
-- [WhitePaper](guide/whitepaper.md)
+- [WhitePaper](guide/whitepaper-v0.1.md)
 - [什么是仙女座](guide/what-is-andverse.md)
 
 ## 社区

@@ -5,7 +5,7 @@ slug: /
 
 # Get Started
 
-- [WhitePaper](guide/whitepaper.md)
+- [WhitePaper](guide/whitepaper-v0.1.md)
 - [What's Andverse](guide/what-is-andverse.md)
 
 ## Community
