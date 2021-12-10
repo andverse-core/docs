@@ -44,7 +44,7 @@ const config = {
 
       // whether to index blog pages
       // indexBlog: false,
-      
+
       // must start with "/" and correspond to the routeBasePath configured for the blog plugin
       // use "/" if you use blog-only-mode
       // (see https://v2.docusaurus.io/docs/2.0.0-alpha.70/blog#blog-only-mode)
@@ -83,16 +83,16 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/andverse-core/docs/edit/main/blog/andverse/index.md',
+          editUrl: 'https://github.com/andverse-core/docs/edit/master/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/andverse-core/docs/edit/main/blog/andverse/index.md',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   editUrl:
+        //     'https://github.com/andverse-core/docs/edit/master/blog/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.scss'),
         },
