@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Andverse ",
+    "description": "The title in the navbar"
+  },
+  "item.label.Let's Start": {
+    "message": "Let's Start",
+    "description": "Navbar item with label Let's Start"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

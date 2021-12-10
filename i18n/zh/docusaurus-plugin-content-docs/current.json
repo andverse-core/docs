@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Guide": {
+    "message": "介绍",
+    "description": "The label for category Guide in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Specs": {
+    "message": "规范",
+    "description": "The label for category Specs in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Technology": {
+    "message": "技术",
+    "description": "The label for category Technology in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Api": {
+    "message": "Api",
+    "description": "The label for category Api in sidebar tutorialSidebar"
+  }
+}
