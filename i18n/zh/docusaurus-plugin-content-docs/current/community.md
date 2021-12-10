@@ -1,8 +1,9 @@
 ---
-sidebar_position: 2
+sidebar_position: 5
 slug: /community
 ---
-# Community
+
+# 社区
 
 - [Medium](https://medium.com/@andverse)
 
