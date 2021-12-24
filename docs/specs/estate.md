@@ -10,7 +10,7 @@ Estate is a non-fungible digital asset on newton blockchain. An estate is an ass
 
 ```json
 {
-    "name":"Estate 3",
+    "name":"Estate #3",
     "description":"Andverse Estate. Each Estate is a unique (non-fungible) token lying on the public NewChain blockchain (NRC-7).",
     "image":"https://api.andverse.org/estate/3.jpg",
     "andverse":{
