@@ -24,7 +24,7 @@ sidebar_position: 8
 > 16m x 16m.
 
 ## 如何合成地块
-1. 打开 NewPay，选择 DApp 页面，选择 Andverse Market 应用。
+1. 打开 [NewPay](https://www.newtonproject.org/newpay/)，选择 DApp 页面，选择 Andverse Market 应用。
 2. 点击左上角 “三” 选择框，选择地图
 3. 进入地图页面，点击 “参加第一轮 AndLand 领取”
 4. 在地图中寻找黄色块，黄色块表示自己的 AndLand，点击要合成的黄色块，会弹出 AndLand 信息
