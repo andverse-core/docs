@@ -16,7 +16,8 @@ Estate is a non-fungible digital asset on newton blockchain. An estate is an ass
     "andverse":{
         "name":"Crypto City",
         "description":"The first-ever crypto city.",
-        "image":"https://api.andverse/estates/3313/logo.jpg"
+        "image":"https://api.andverse/estates/3313/logo.jpg",
+        "website":"https://andverse.org"
     },
     "properties":[
         {
@@ -32,6 +33,6 @@ Estate is a non-fungible digital asset on newton blockchain. An estate is an ass
 - name: the name of estate
 - description: the description of estate
 - image:  the description of estate, auto, automatically generated according to the surrounding environment
-- andverse：user custom data, including name, description and image
+- andverse：user custom data, including name, description, website and image
 - properties: metadata of properties
 - external_url: the url to andverse.org
