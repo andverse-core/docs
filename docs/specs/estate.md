@@ -3,8 +3,8 @@
 `Tips: This document is still in the draft stage.`
 
 Estate is a non-fungible digital asset on newton blockchain. An estate is an association of two or more directly adjacent parcels of LAND.
-- These parcels must be directly adjacent and cannot be separated by any other parcel. By connecting parcels to form Estates, you can more easily manage your larger LAND holdings.
 
+- These parcels must be directly adjacent and cannot be separated by any other parcel. By connecting parcels to form Estates, you can more easily manage your larger LAND holdings.
 
 ## TokenURI Format
 
