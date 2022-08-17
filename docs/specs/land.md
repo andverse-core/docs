@@ -23,21 +23,21 @@ Refer to [SLIP-0044](https://github.com/satoshilabs/slips/blob/master/slip-0044.
 
 Metaverse ID is registered as follows.
 
-Metaverse ID | Symbol | Metaverse
----|--|--
-0 | NEW | Newton Metaverse
-1 | AND | Andverse
-2 | META | Facebook (META)
-3 | LAND | Decentraland
-4 | SAND | SandBox
+| Metaverse ID | Symbol | Metaverse        |
+| ------------ | ------ | ---------------- |
+| 0            | NEW    | Newton Metaverse |
+| 1            | AND    | Andverse         |
+| 2            | META   | Facebook (META)  |
+| 3            | LAND   | Decentraland     |
+| 4            | SAND   | SandBox          |
 
 The metaverse and the galaxies, planets, lands, etc. that it contains are required to provide `function metaverseId()` to return the metaverse ID.
 
 - 2: Galaxy ID, the number of the galaxy it belongs to. This number is maintained separately for each metaverse, where the Andromeda metaverse has the following galaxy number.
 
-Galaxy ID | Name
---|--
-0 | Andromeda Galaxy
+| Galaxy ID | Name             |
+| --------- | ---------------- |
+| 0         | Andromeda Galaxy |
 
 The galaxy and its planets, lands, etc., need to provide `function galaxyId()` to return the galaxy ID.
 
