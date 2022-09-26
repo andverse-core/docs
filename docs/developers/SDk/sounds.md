@@ -1,5 +1,3 @@
-<h1>sounds</h1>
-
 Sound is a great way to provide feedback to player actions and events, background sounds can also give your scene more context and improve the player's immersion into it.
 
 > Note: Keep in mind that sounds are only heard by players who are standing within the parcels that make up the scene where the sound was generated, even if they would otherwise be in hearing range. Players can also chose to turn off all sounds on their settings.

@@ -1,8 +1,7 @@
-<h1>视频播放</h1>
 
 有两种不同的方式可以在场景中显示视频。一种是从外部源流式传输视频，另一种是将视频文件与场景打包并从那里播放。
 
-在这两种情况下，您都可以将视频分配给一个 `VideoTexture`，它可以用于 [material](/creator/development-guide/materials)，然后应用于任何[primitive-shape](/creator/development-guide/shape-components.md)，例如平面、立方体，甚至是圆锥体。
+在这两种情况下，您都可以将视频分配给一个 `VideoTexture`，它可以用于 [material]，然后应用于任何[primitive-shape]，例如平面、立方体，甚至是圆锥体。
 
 > 提示：由于视频是添加到材质中的纹理，您还可以尝试使用材质的其他属性，例如用颜色着色，添加其他纹理层
 

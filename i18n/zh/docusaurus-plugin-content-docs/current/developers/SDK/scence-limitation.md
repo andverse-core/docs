@@ -38,7 +38,7 @@
 
 ## 着色器限制
 
-decentraland 中使用的 3D 模型必须使用受支持的着色器和材质。有关支持的着色器列表，请参阅 [3D 模型材料](/creator/3d-modeling/materials)。
+decentraland 中使用的 3D 模型必须使用受支持的着色器和材质。有关支持的着色器列表，请参阅 [3D 模型材料]。
 
 ＃＃ 灯光
 

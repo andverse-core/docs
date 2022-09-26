@@ -1,4 +1,3 @@
-<h1>点击事件</h1>
 Andverse 接受来自指针点击、主按钮和辅助按钮的事件。
 
 点击可以通过鼠标、触摸屏、完成，这些都生成相同类型的事件。
@@ -282,7 +281,7 @@ houseEntity.addComponent(
 - `useRaycast`：布尔值，用于定义是否使用光线投射。如果为“false”，则按钮事件将不包含有关在事件发生时与指针对齐的任何“hit”对象的信息。当不需要有关命中对象的信息时，请避免将此字段设置为 `true`，因为它涉及额外的计算。
 - `fn`：每次事件发生时执行的函数。
 
-> 注意：PC 键盘上的其他键不会被跟踪以实现未来的跨平台兼容性，因为这组有限的键可以映射到操纵杆。要在编写文本时检测击键，请检查 [UIInputBox](/creator/development-guide/onscreen-ui)。
+> 注意：PC 键盘上的其他键不会被跟踪以实现未来的跨平台兼容性，因为这组有限的键可以映射到操纵杆。要在编写文本时检测击键，请检查 [UIInputBox]。
 
 ```ts
 // 实例化输入对象
@@ -321,7 +320,7 @@ input.subscribe("BUTTON_UP", ActionButton.POINTER, false, (e) => {
 
 全局按钮事件的光线仅检测具有碰撞器网格的实体。默认情况下，原始形状有一个对撞机网格，3D 模型需要在其中内置一个。
 
-> 提示：有关如何将碰撞器网格添加到 3D 模型的详细信息，请参阅 [碰撞器](/creator/3d-modeling/colliders)。
+> 提示：有关如何将碰撞器网格添加到 3D 模型的详细信息，请参阅 [碰撞器]。
 
 ```ts
 input.subscribe("BUTTON_DOWN", ActionButton.POINTER, true, (e) => {

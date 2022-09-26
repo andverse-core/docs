@@ -1,4 +1,4 @@
-<h1>形状组件</h1>
+
 
 Andverse 中的三维场景基于 [Entity-Component](https://en.wikipedia.org/wiki/Entity%E2%80%93component%E2%80%93system) 模型，其中场景中的一切都是 _entity_，每个实体都可以包含塑造其特征和功能的 _components_。
 
@@ -31,7 +31,7 @@ myEntity.addComponent（新 SphereShape（））
 myEntity.addComponent(sphere)
 ```
 
-原始形状不包括材料。要为其赋予颜色或纹理，您必须将 [材质组件](/docs/technology/sdk/material.md) 分配给同一实体。
+原始形状不包括材料。要为其赋予颜色或纹理，您必须将 [材质组件] 分配给同一实体。
 
 ## 3D模型
 
@@ -49,9 +49,9 @@ myEntity.addComponent(new GLTFShape("models/House.gltf"))
 
 > 提示：我们建议将您的模型单独保存在场景内的 `/models` 文件夹中。
 
-glTF 模型可以包含它们自己的嵌入式纹理、材质、碰撞器和动画。有关这方面的更多信息，请参阅 [3D 模型](/creator/3d-modeling/3d-models)。
+glTF 模型可以包含它们自己的嵌入式纹理、材质、碰撞器和动画。有关这方面的更多信息，请参阅 [3D 模型]。
 
-请记住，所有模型、它们的着色器和它们的纹理都必须在 [场景限制] (/creator/development-guide/scene-limitations) 的参数范围内。
+请记住，所有模型、它们的着色器和它们的纹理都必须在 [场景限制] 的参数范围内。
 
 #### 3D 模型的免费库
 
@@ -101,11 +101,11 @@ Andverse 当前没有物理引擎，因此如果您希望实体跌落、碰撞�
 
 _collider_ 是一组几何形状或平面，用于定义模型的哪些部分被碰撞。这允许更大的控制并且对系统的要求要低得多，因为碰撞对象通常比原始模型简单得多（顶点更少）。
 
-有关如何将碰撞器添加到 3D 模型的更多详细信息，请参阅 [3D 模型](/creator/3d-modeling/3d-models)。
+有关如何将碰撞器添加到 3D 模型的更多详细信息，请参阅 [3D 模型]。
 
 ## 指针阻塞
 
-默认情况下，所有形状都会阻止玩家 [按钮事件](/creator/development-guide/click-events)，例如，玩家无法点击墙壁，或捡起锁在箱子内的东西。
+默认情况下，所有形状都会阻止玩家 [按钮事件]，例如，玩家无法点击墙壁，或捡起锁在箱子内的东西。
 
 但是，您可以在任何形状上禁用此行为，无论它是原始模型还是导入的 3D 模型。
 
@@ -131,5 +131,5 @@ myEntity.addComponent（新 BoxShape（））
 myEntity.getComponent(BoxShape).visible = false
 ```
 
-如果实体是不可见的，它的碰撞器可以阻挡玩家的路径，但不能被点击。要使实体既不可见又可点击，请将 `visible` 属性设置为 _true_，并改为赋予其 100% 透明度的 [material](/creator/development-guide/materials#pooling-entities-and-components) 
+如果实体是不可见的，它的碰撞器可以阻挡玩家的路径，但不能被点击。要使实体既不可见又可点击，请将 `visible` 属性设置为 _true_，并改为赋予其 100% 透明度的 [material] 
 

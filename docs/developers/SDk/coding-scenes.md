@@ -1,6 +1,4 @@
-<h1>Coding scenes</h1>
-
-###The development tools
+### The development tools
 At a very high level, the Andverse Software Development Kit (SDK) allows you to do the following:
 
 - Generate a default project containing a Andverse scene, including all the assets needed to render and run your content.
@@ -14,7 +12,7 @@ Our SDK includes the following components:
 - <strong>The Andverse CLI</strong> (Command Line Interface): Use it to generate new Andverse scenes locally on your own machine, preview them and upload them to the content server.
 - <strong>Scene examples</strong>: Take inspiration and coding best practices from the [scene examples](https://github.com/andverse-scenes).
 
-###Requirements
+### Requirements
 To develop a scene locally, you don’t need to own LAND tokens. Developing and testing a scene can be done completely offline, without the need to deploy a scene to the Newton network (the system Andverse uses to establish ownership of LAND), or the content server.
 
 You must have the following:
@@ -25,7 +23,7 @@ You must have the following:
 
 A source code editor: Helps you create scenes a lot faster and with less errors. A source code editor marks syntax errors, autocompletes while you write and even shows you smart suggestions that depend on the context that you’re in. You can also click on an object in the code to see the full definition of its class and what attributes it supports. We recommend [Visual Studio Code](https://code.visualstudio.com/).
 
-###Supported languages and syntax
+### Supported languages and syntax
 **TypeScript (recommended)**
 We use [TypeScript](https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html) (.ts) to create our scenes.
 
@@ -41,14 +39,14 @@ Scenes are deployed to virtual LAND in Andverse. LAND is a scarce and non-fungib
 
 We are developing the web client that will allow players to explore Andverse. All of the content you upload to your LAND will be rendered and viewable through this client. We have included a preview tool in the SDK so that you can preview, test, and interact with your content in the meantime.
 
-###Entities and Components
+### Entities and Components
 Three dimensional scenes in Andverse are based on an [Entity-Component-System](https://en.wikipedia.org/wiki/Entity_component_system) architecture, where everything in a scene is an *entity*, and each entity can include *components* that determine its characteristics.
 
 Entities are nested inside other entities to form a tree structure. If you’re familiar with web development, you might find it useful to think of entities as elements in a DOM tree and of components as the attributes of each of these elements.
 
 See Entities and components for an in-depth look of both these concepts and how they’re used by Andverse scenes.
 
-###The game loop
+### The game loop
 [The game loop](http://gameprogrammingpatterns.com/game-loop.html) is the backbone of a Andverse scene’s code. It cycles through part of the code at a regular interval and does the following:
 
 - Listen for player input
@@ -66,7 +64,7 @@ In Andverse scenes, there is no explicitly declared game loop, but rather the up
 
 The compiling and rendering of the scene is carried out in the backend, you don’t need to handle that while developing your scene.
 
-###Systems
+### Systems
 Entities and components are places to store information about the objects in a scene. Systems hold functions that change the information that’s stored in components.
 
 Systems are what make a static scene dynamic, allowing things to change over time or in response to player interaction.
@@ -75,21 +73,21 @@ Each System has an update() method that’s executed on every frame of the game 
 
 See Systems for more details about how systems are used in a scene.
 
-###Component groups
+### Component groups
 Component groups keep track of all entities in the scene that have certain components in them. Once a component group is created, it automatically keeps its list up to date with each new entity or component that is added or removed.
 
 If you attempt to update all the entities in the scene on every frame, that could have a significant cost in performance. By referring only to the entities in a component group, you ensure you’re only dealing with those that are relevant.
 
 Component groups can be referenced by the functions in a system. Typically an update() function will loop over the entities in the component group, performing the same actions on each.
 
-###Putting it all together
+### Putting it all together
 The engine is what sits in between entities, components and component groups on one hand and systems on the other. It calls system’s functions, updates groups when entities are added, etc.
 
 All of the values stored in the components in the scene represent the scene’s state at that point in time. With every frame of the game loop, the engine runs the update() function of each of the systems to update the values stored in the components.
 
 After all the systems run, the components on each entity will have new values. When the engine renders the scene, it will use these new updated values and players will see the entities change to match their new states.
 
-```
+```ts
 // Create a group to track all entities with a Transform component
 const myGroup = engine.getComponentGroup(Transform)
 

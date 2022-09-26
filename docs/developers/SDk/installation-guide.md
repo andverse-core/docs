@@ -1,17 +1,19 @@
-<h1> CLI Installation Guide </h1>
+
 To build scenes for Andverse you will need to install 
 the Command Line Interface (CLI).
-<br><br/>
+
 The CLI allows you to compile and preview your scene in an “off-chain” development environment. After testing your scene locally, you can use the CLI to upload your content to the content server, linking it with your LAND.
-<br><br/>
-<strong>Please note:</strong> Currently, the Andverse SDK (bundled with the CLI installation) only supports TypeScript.
-<br><br/>
+
+<!-- <strong>Please note:</strong>  -->
+
+Currently, the Andverse SDK (bundled with the CLI installation) only supports TypeScript.
+
 
 The Andverse CLI is distributed via npm.
 
-<h2 id="before-you-begin">Before you Begin<a href="#before-you-begin" class="header-link">#</a></h2>
+<!-- <h2 id="before-you-begin">Before you Begin<a href="#before-you-begin" class="header-link">#</a></h2> -->
 Please install the following dependencies before you install the CLI:
-<br></br>
+
 
 - [Node.js](https://nodejs.org) (version 8 or later)
 
