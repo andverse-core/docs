@@ -1,6 +1,5 @@
-<h1>编码场景</h1>
 
-###开发工具
+### 开发工具
 在非常高的层次上，Andverse 软件开发工具包 (SDK) 允许您执行以下操作：
 
 - 生成包含 Andverse 场景的默认项目，包括渲染和运行内容所需的所有资产。
@@ -14,7 +13,7 @@
 - <strong>Andverse CLI</strong>（命令行界面）：使用它在您自己的机器上本地生成新的 Andverse 场景，预览它们并将它们上传到内容服务器。
 - <strong>场景示例</strong>：从 [场景示例](https://github.com/andverse-scenes) 中获取灵感和编码最佳实践。
 
-＃＃＃要求
+### 要求
 要在本地开发场景，您不需要拥有 LAND 代币。开发和测试场景可以完全离线完成，无需将场景部署到 Newton 网络（Andverse 用于建立 LAND 所有权的系统）或内容服务器。
 
 您必须具备以下条件：
@@ -25,7 +24,7 @@
 
 源代码编辑器：帮助您更快地创建场景并减少错误。源代码编辑器标记语法错误，在您编写时自动完成，甚至根据您所处的上下文向您显示智能建议。您还可以单击代码中的对象以查看其类的完整定义以及哪些属性它支持。我们推荐 [Visual Studio Code](https://code.visualstudio.com/)。
 
-###支持的语言和语法
+### 支持的语言和语法
 **TypeScript（推荐）**
 我们使用 [TypeScript](https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html) (.ts) 来创建我们的场景。
 
@@ -41,14 +40,14 @@ TypeScript 是 JavaScript 的超集，因此如果您熟悉 JavaScript，您会�
 
 我们正在开发允许玩家探索 Andverse 的网络客户端。您上传到 LAND 的所有内容都将通过此客户端呈现和查看。我们在 SDK 中包含了一个预览工具，以便您可以同时预览、测试和与您的内容交互。
 
-###实体和组件
+### 实体和组件
 Andverse 中的三维场景基于 [Entity-Component-System](https://en.wikipedia.org/wiki/Entity_component_system) 架构，其中场景中的所有内容都是*实体*，每个实体可以包含*决定其特性的组件*。
 
 实体嵌套在其他实体中以形成树结构。如果您熟悉 Web 开发，您可能会发现将实体视为 DOM 树中的元素并将组件视为每个元素的属性很有用。
 
 请参阅实体和组件，深入了解这两个概念以及 Andverse 场景如何使用它们。
 
-###游戏循环
+### 游戏循环
 [游戏循环](http://gameprogrammingpatterns.com/game-loop.html) 是 Andverse 场景代码的主干。它定期循环浏览部分代码并执行以下操作：
 
 - 聆听玩家输入
@@ -66,7 +65,7 @@ Andverse 中的三维场景基于 [Entity-Component-System](https://en.wikipedia
 
 场景的编译和渲染在后端进行，开发场景时无需处理。
 
-###系统
+### 系统
 实体和组件是存储有关场景中对象的信息的地方。系统拥有改变存储在组件中的信息的功能。
 
 系统使静态场景动态化，允许事物随着时间的推移或响应玩家交互而改变。
@@ -75,7 +74,7 @@ Andverse 中的三维场景基于 [Entity-Component-System](https://en.wikipedia
 
 有关如何在场景中使用系统的更多详细信息，请参阅系统。
 
-###组件组
+### 组件组
 组件组跟踪场景中具有某些组件的所有实体。创建组件组后，它会自动使其列表与添加或删除的每个新实体或组件保持同步。
 
 如果您尝试在每一帧上更新场景中的所有实体，则可能会显着降低性能。通过仅引用组件组中的实体，您可以确保您只处理相关的实体。
