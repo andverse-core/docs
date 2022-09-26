@@ -13,3 +13,9 @@ sidebar_position: 8
 ## What's the size about land?
 
 > 16m x 16m.
+
+
+## How many lands in Andverse?
+
+> Land Mint Round #1 has 10000 lands. 
+

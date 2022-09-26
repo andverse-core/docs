@@ -23,6 +23,13 @@ sidebar_position: 8
 
 > 16m x 16m.
 
+
+
+## 仙女座有多少块土地?
+
+> 第一轮 MINT 有 10000 块土地. 
+
+
 ## 如何合成地块
 1. 打开 [NewPay](https://www.newtonproject.org/newpay/)，选择 DApp 页面，选择 Andverse Market 应用。
 2. 点击左上角 “三” 选择框，选择地图
@@ -32,3 +39,5 @@ sidebar_position: 8
 6. 选择好之后，先进行授权操作，点击授权按钮，(如果已经授权，则按钮为合成按钮)，等待10s 中左右，按钮变为 合成按钮
 7. 点击合成，确认交易就可以合成 AndEstate 了。
 8. 合成地块之后，可以给 AndLand 上传图片，名称，描述信息。(ps: 如果选取 AndLand 为矩形，那么图片会平铺为一个矩形显示，如果为不规则图形，那么每个 AndLand 都会显示上传的图片信息)
+
+
