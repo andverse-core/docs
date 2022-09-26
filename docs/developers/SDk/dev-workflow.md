@@ -1,4 +1,3 @@
-<h1>Development Workflow</h1>
 This document outlines the recommended steps involved in developing a scene for Andverse, going from testing in the local environment to deploying to production.
 
 ###Before you begin

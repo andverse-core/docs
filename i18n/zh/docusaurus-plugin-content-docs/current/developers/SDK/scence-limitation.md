@@ -1,5 +1,3 @@
-<h1>场景限制</h1>
-
 为了提高虚拟世界中的性能，我们建立了一套每个场景都必须遵循的限制。如果一个
 场景超出这些限制，则不会加载包裹，并且预览将显示错误消息。
 
@@ -7,7 +5,7 @@
 
 [参考表](https://docs.google.com/spreadsheets/d/1BTm0C20PqdQDAN7vOQ6FpnkVncPecJt-EwTSNHzrsmg/edit#gid=0)
 
-##场景限制规则
+## 场景限制规则
 
 以下是一个场景允许同时渲染的最大元素数：
 
@@ -38,7 +36,7 @@
 
 ## 着色器限制
 
-decentraland 中使用的 3D 模型必须使用受支持的着色器和材质。有关支持的着色器列表，请参阅 [3D 模型材料](/creator/3d-modeling/materials)。
+decentraland 中使用的 3D 模型必须使用受支持的着色器和材质。有关支持的着色器列表，请参阅 [3D 模型材料]。
 
 ＃＃ 灯光
 

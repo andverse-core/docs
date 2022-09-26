@@ -1,5 +1,3 @@
-<h1>实体位置</h1>
-
 您可以使用 `Transform` 组件设置实体的 _position_、_rotation_ 和 _scale_。这可以用于任何实体，也可以是原始形状组件（立方体、球体、平面等）或 3D 模型组件（`GLTFShape`）
 
 ```ts
@@ -26,7 +24,7 @@ box.addComponent(new Billboard())
 engine.addEntity(box)
 ```
 
-要在场景中移动、旋转或调整实体大小，请逐帧递增地更改此组件上的值。有关更多详细信息和最佳实践，请参阅 [移动实体](move-entities.md)。您还可以使用 [utils 库](https://www.npmjs.com/package/andverse-ecs-utils) 中的辅助函数来更轻松地实现此目的。
+要在场景中移动、旋转或调整实体大小，请逐帧递增地更改此组件上的值。有关更多详细信息和最佳实践，请参阅 [移动实体]。您还可以使用 [utils 库](https://www.npmjs.com/package/andverse-ecs-utils) 中的辅助函数来更轻松地实现此目的。
 
 ## 位置
 
@@ -68,7 +66,7 @@ myTransform.position = new Vector3(5, 1, 5)
 
   > 提示：在预览模式下查看场景时，超出范围的实体以_红色_突出显示。
 
-- 你的场景也有高度限制。组成场景的地块越多，您可以建造的越高。有关更多详细信息，请参阅 [场景限制](/creator/development-guide/scene-limitations)。
+- 你的场景也有高度限制。组成场景的地块越多，您可以建造的越高。有关更多详细信息，请参阅 [场景限制]。
 
 ## 旋转角度
 
@@ -328,7 +326,7 @@ child.setParent(parent)
 
 ####获取头像Id
 
-要将实体附加到头像，您必须在“avatarId”字段中提供用户的 ID。有[各种方式](/creator/development-guide/user-data#g​​et-player-data)来获取这些数据。
+要将实体附加到头像，您必须在“avatarId”字段中提供用户的 ID。有多种方式来获取这些数据。
 
 > 注意：对于那些连接以太坊钱包的玩家，他们的“userId”与他们的以太坊地址相同。
 
@@ -354,7 +352,7 @@ executeTask(async () => {
 })
 ```
 
-在 [Get Player Data](/creator/development-guide/user-data#g​​et-player-data) 中查看获取其他用户 ID 的其他方法。
+在 [Get Player Data] 中查看获取其他用户 ID 的其他方法。
 
 #### 使用 Attachable 附加到播放器（已弃用）
 
@@ -424,11 +422,11 @@ followAvatar.setParent(Attachable.AVATAR)
 
 场景地面上的网格显示场景的范围，默认情况下，_x_ 和 _z_ 轴上的范围为 0 到 16，_y_ 轴上最多为 20。您可以自由地将实体放置在 _y_ 轴上低于 0 的地下。
 
-> 提示：如果您的场景需要更多地块，您可以将它们添加到项目的 `scene.json` 文件中。有关说明，请参阅 [场景元数据](/creator/development-guide/scene-metadata)。添加后，您应该会看到网格扩展到覆盖其他地块。
+> 提示：如果您的场景需要更多地块，您可以将它们添加到项目的 `scene.json` 文件中。有关说明，请参阅 [场景元数据]。添加后，您应该会看到网格扩展到覆盖其他地块。
 
 请务必注意，_整个_3D 模型必须在场景范围内。这包括模型的_bounding box_。一些 3D 模型可能具有不必要地超出网格本身的边界框，有时很难判断何时发生这种情况。当实体超出场景边界时，您将在预览中看到一个标记这些边界框的立方体。整个立方体必须适合您的场景。
 
-![](/images/media/bounding-box.png)
+
 
 如果实体的立方体超出其网格的形状，您可能需要在外部编辑器中编辑 3D 模型以减少这些边距，或 _bake_ 模型中网格的旋转和缩放。
 

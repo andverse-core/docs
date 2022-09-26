@@ -1,11 +1,7 @@
-<h1> CLI 安装指南 </h1>
 要为 Andverse 构建场景，您需要安装
 命令行界面 (CLI)。
-<br><br/>
 CLI 允许您在“链下”开发环境中编译和预览场景。在本地测试您的场景后，您可以使用 CLI 将您的内容上传到内容服务器，并将其与您的 LAND 链接。
-<br><br/>
-<strong>请注意：</strong> 目前，Andverse SDK（与 CLI 安装捆绑）仅支持 TypeScript。
-<br><br/>
+请注意： 目前，Andverse SDK（与 CLI 安装捆绑）仅支持 TypeScript。
 
 Andverse CLI 通过 npm 分发。
 

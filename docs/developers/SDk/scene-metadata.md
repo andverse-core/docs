@@ -1,8 +1,4 @@
----
-sidebar_position: 1
----
 
-# Scene metadata
 
 All scenes have a `scene.json` file where you can set metadata for the scene. Some fields in this file are predefined with information that's necessary for the Andverse client.
 
