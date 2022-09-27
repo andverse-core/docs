@@ -18,4 +18,5 @@ sidebar_position: 8
 ## How many lands in Andverse?
 
 > Land Mint Round #1 has 10000 lands. 
+> We have minted 9238 lands in Land Mint Round #1 As of September 27, 2022
 
